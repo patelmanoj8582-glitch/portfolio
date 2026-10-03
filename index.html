@@ -1,0 +1,902 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio of Manoj DV - B.E. in Electronics & Communication Engineering. Specializing in VLSI, FPGA, Embedded Systems, and IoT.">
+  <meta name="keywords" content="Manoj DV, VLSI, FPGA, Embedded Systems, IoT, Electronics Engineering, Portfolio">
+  <meta name="author" content="Manoj DV">
+  <title>Manoj DV | Electronics & Communication Engineer | VLSI & Embedded Systems</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Dynamic Background Effect Canvas -->
+  <canvas id="bg-canvas" aria-hidden="true"></canvas>
+
+  <!-- Sticky Top Navigation -->
+  <header class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#home" class="nav-logo" aria-label="Manoj DV Homepage">
+        <span class="logo-symbol">&lt;</span>Manoj<span class="logo-accent">.DV</span><span class="logo-symbol">/&gt;</span>
+      </a>
+
+      <!-- Navigation Links -->
+      <nav class="nav-menu" id="nav-menu" aria-label="Primary Navigation">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#home" class="nav-link active">Home</a></li>
+          <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+          <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+          <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+          <li class="nav-item"><a href="#experience" class="nav-link">Experience</a></li>
+          <li class="nav-item"><a href="#certifications" class="nav-link">Certifications</a></li>
+          <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Action Buttons: Theme Toggle and Mobile Menu Button -->
+      <div class="nav-actions">
+        <button id="theme-toggle" class="theme-toggle-btn" aria-label="Toggle dark and light theme" title="Toggle Theme">
+          <svg class="sun-icon" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="5"></circle>
+            <line x1="12" y1="1" x2="12" y2="3"></line>
+            <line x1="12" y1="21" x2="12" y2="23"></line>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+            <line x1="1" y1="12" x2="3" y2="12"></line>
+            <line x1="21" y1="12" x2="23" y2="12"></line>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+          </svg>
+          <svg class="moon-icon" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+          </svg>
+        </button>
+
+        <button id="hamburger" class="hamburger-btn" aria-label="Toggle menu" aria-expanded="false" aria-controls="nav-menu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <!-- 1. Home Section -->
+    <section id="home" class="hero-section">
+      <div class="hero-container">
+        <div class="hero-badge">
+          <span class="pulse-dot"></span> Available for Core &amp; Software Opportunities • Class of 2027
+        </div>
+        <h1 class="hero-title">
+          Hi, I'm <span class="gradient-text">Manoj DV</span>
+        </h1>
+        <h2 class="hero-subtitle">
+          B.E. Electronics &amp; Communication Engineering
+        </h2>
+        <p class="hero-description">
+          Passionate engineering student focused on the intersection of hardware and intelligent systems. 
+          Designing next-generation digital circuits, real-time embedded firmware, and accelerated edge computing architectures.
+        </p>
+        
+        <div class="hero-tags">
+          <span class="hero-tag">VLSI</span>
+          <span class="hero-tag">FPGA</span>
+          <span class="hero-tag">Embedded Systems</span>
+          <span class="hero-tag">IoT</span>
+        </div>
+
+        <div class="hero-cta-group">
+          <a href="#projects" class="btn btn-primary">
+            <span>Explore Projects</span>
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="5" y1="12" x2="19" y2="12"></line>
+              <polyline points="12 5 19 12 12 19"></polyline>
+            </svg>
+          </a>
+          <a href="#contact" class="btn btn-secondary">
+            <span>Get in Touch</span>
+          </a>
+        </div>
+
+        <div class="hero-stats">
+          <div class="stat-card">
+            <span class="stat-number">7.5</span>
+            <span class="stat-label">CGPA</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat-card">
+            <span class="stat-number">2027</span>
+            <span class="stat-label">Graduation</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat-card">
+            <span class="stat-number">4+</span>
+            <span class="stat-label">Core Projects</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat-card">
+            <span class="stat-number">14+</span>
+            <span class="stat-label">Competencies</span>
+          </div>
+        </div>
+      </div>
+      <a href="#about" class="scroll-down-indicator" aria-label="Scroll to About section">
+        <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M7 13l5 5 5-5M7 6l5 5 5-5"/>
+        </svg>
+      </a>
+    </section>
+
+    <!-- 2. About Me Section -->
+    <section id="about" class="section about-section">
+      <div class="section-container">
+        <div class="section-header">
+          <span class="section-tag">&lt;overview&gt;</span>
+          <h2 class="section-title">About Me</h2>
+          <div class="section-line"></div>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-card bio-card">
+            <h3 class="card-heading">Engineering Silicon &amp; Intelligent Edge Devices</h3>
+            <p>
+              I am an undergraduate student pursuing a <strong>Bachelor of Engineering (B.E.) in Electronics and Communication Engineering</strong>, graduating in <strong>2027</strong> with a consistent <strong>CGPA of 7.5</strong>.
+            </p>
+            <p>
+              My academic and technical journey revolves around bridging low-level hardware design and high-level intelligent software. I have a deep passion for <strong>VLSI</strong> design, <strong>FPGA</strong> architecture prototyping, <strong>Embedded Systems</strong> programming, and interconnected <strong>IoT</strong> sensor ecosystems.
+            </p>
+            <p>
+              Whether it involves synthesizing hardware-accelerated neural networks on FPGAs, optimizing low-power microcontrollers, or developing secure machine learning solutions, I thrive on solving complex engineering challenges through systematic design and disciplined verification.
+            </p>
+            
+            <div class="bio-highlights">
+              <div class="bio-item">
+                <span class="bio-icon">&#9881;</span>
+                <div>
+                  <strong>Hardware-Software Co-Design</strong>
+                  <span>Architecting balanced solutions from gate-level RTL to driver software.</span>
+                </div>
+              </div>
+              <div class="bio-item">
+                <span class="bio-icon">&#9889;</span>
+                <div>
+                  <strong>Edge Intelligence &amp; Acceleration</strong>
+                  <span>Offloading compute-intensive neural workloads onto custom digital circuits.</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="about-card specs-card">
+            <h3 class="card-heading">Academic &amp; Technical Profile</h3>
+            <ul class="specs-list">
+              <li>
+                <span class="spec-label">Degree</span>
+                <span class="spec-value">B.E. Electronics &amp; Communication</span>
+              </li>
+              <li>
+                <span class="spec-label">Graduation</span>
+                <span class="spec-value">Expected June 2027</span>
+              </li>
+              <li>
+                <span class="spec-label">Current CGPA</span>
+                <span class="spec-value highlight-badge">7.5 / 10.0</span>
+              </li>
+              <li>
+                <span class="spec-label">Core Interests</span>
+                <span class="spec-value">VLSI, FPGA, Embedded Systems, IoT</span>
+              </li>
+              <li>
+                <span class="spec-label">Specialization Focus</span>
+                <span class="spec-value">RTL Design, Hardware Verification &amp; AI Acceleration</span>
+              </li>
+              <li>
+                <span class="spec-label">Status</span>
+                <span class="spec-value status-active">Actively Building &amp; Exploring</span>
+              </li>
+            </ul>
+
+            <div class="quote-box">
+              <div class="quote-text">
+                "Driven by precision at the register-transfer level and innovation at the physical edge."
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. Skills Section -->
+    <section id="skills" class="section skills-section">
+      <div class="section-container">
+        <div class="section-header">
+          <span class="section-tag">&lt;tech_stack&gt;</span>
+          <h2 class="section-title">Technical Skills</h2>
+          <div class="section-line"></div>
+          <p class="section-subtitle">Categorized competencies spanning hardware architectures, embedded systems, programming, and development tools.</p>
+        </div>
+
+        <div class="skills-grid">
+          <!-- Category 1: Hardware & VLSI Design -->
+          <div class="skill-category-card">
+            <div class="category-header">
+              <div class="category-icon hardware-icon">
+                <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2">
+                  <rect x="4" y="4" width="16" height="16" rx="2"></rect>
+                  <rect x="9" y="9" width="6" height="6"></rect>
+                  <line x1="9" y1="1" x2="9" y2="4"></line>
+                  <line x1="15" y1="1" x2="15" y2="4"></line>
+                  <line x1="9" y1="20" x2="9" y2="23"></line>
+                  <line x1="15" y1="20" x2="15" y2="23"></line>
+                  <line x1="20" y1="9" x2="23" y2="9"></line>
+                  <line x1="20" y1="14" x2="23" y2="14"></line>
+                  <line x1="1" y1="9" x2="4" y2="9"></line>
+                  <line x1="1" y1="14" x2="4" y2="14"></line>
+                </svg>
+              </div>
+              <h3 class="category-title">VLSI &amp; Hardware Design</h3>
+            </div>
+            <p class="category-desc">Digital circuit synthesis, structural modeling, and silicon architecture.</p>
+            <div class="skill-tags-wrapper">
+              <div class="skill-item">
+                <span class="skill-indicator"></span>
+                <span class="skill-name">VLSI</span>
+                <span class="skill-level">Core</span>
+              </div>
+              <div class="skill-item">
+                <span class="skill-indicator"></span>
+                <span class="skill-name">FPGA</span>
+                <span class="skill-level">Design</span>
+              </div>
+              <div class="skill-item">
+                <span class="skill-indicator"></span>
+                <span class="skill-name">RTL Design</span>
+                <span class="skill-level">Synthesis</span>
+              </div>
+              <div class="skill-item">
+                <span class="skill-indicator"></span>
+                <span class="skill-name">Digital Electronics</span>
+                <span class="skill-level">Fundamentals</span>
+              </div>
+              <div class="skill-item">
+                <span class="skill-indicator"></span>
+                <span class="skill-name">Verification</span>
+                <span class="skill-level">Simulation</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Category 2: Embedded Systems & IoT -->
+          <div class="skill-category-card">
+            <div class="category-header">
+              <div class="category-icon embedded-icon">
+                <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M5 12.55a11 11 0 0 1 14.08 0"></path>
+                  <path d="M1.42 9a16 16 0 0 1 21.16 0"></path>
+                  <path d="M8.53 16.11a6 6 0 0 1 6.95 0"></path>
+                  <line x1="12" y1="20" x2="12.01" y2="20"></line>
+                </svg>
+              </div>
+              <h3 class="category-title">Embedded &amp; IoT Systems</h3>
+            </div>
+            <p class="category-desc">Microcontroller firmware, sensor networks, and edge communications.</p>
+            <div class="skill-tags-wrapper">
+              <div class="skill-item">
+                <span class="skill-indicator"></span>
+                <span class="skill-name">Embedded C</span>
+                <span class="skill-level">Firmware</span>
+              </div>
+              <div class="skill-item">
+                <span class="skill-indicator"></span>
+                <span class="skill-name">Arduino</span>
+                <span class="skill-level">Prototyping</span>
+              </div>
+              <div class="skill-item">
+                <span class="skill-indicator"></span>
+                <span class="skill-name">IoT</span>
+                <span class="skill-level">Protocols</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Category 3: Programming & Scientific Computing -->
+          <div class="skill-category-card">
+            <div class="category-header">
+              <div class="category-icon coding-icon">
+                <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2">
+                  <polyline points="16 18 22 12 16 6"></polyline>
+                  <polyline points="8 6 2 12 8 18"></polyline>
+                </svg>
+              </div>
+              <h3 class="category-title">Programming Languages</h3>
+            </div>
+            <p class="category-desc">High and low-level software engineering and algorithm design.</p>
+            <div class="skill-tags-wrapper">
+              <div class="skill-item">
+                <span class="skill-indicator"></span>
+                <span class="skill-name">C</span>
+                <span class="skill-level">Proficient</span>
+              </div>
+              <div class="skill-item">
+                <span class="skill-indicator"></span>
+                <span class="skill-name">C++</span>
+                <span class="skill-level">OOP &amp; Data Structures</span>
+              </div>
+              <div class="skill-item">
+                <span class="skill-indicator"></span>
+                <span class="skill-name">Python</span>
+                <span class="skill-level">ML &amp; Scripting</span>
+              </div>
+              <div class="skill-item">
+                <span class="skill-indicator"></span>
+                <span class="skill-name">Java</span>
+                <span class="skill-level">Core OOP</span>
+              </div>
+              <div class="skill-item">
+                <span class="skill-indicator"></span>
+                <span class="skill-name">MATLAB</span>
+                <span class="skill-level">Simulation &amp; DSP</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Category 4: Tools & Version Control -->
+          <div class="skill-category-card">
+            <div class="category-header">
+              <div class="category-icon tools-icon">
+                <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2">
+                  <circle cx="18" cy="18" r="3"></circle>
+                  <circle cx="6" cy="6" r="3"></circle>
+                  <path d="M13 6h3a2 2 0 0 1 2 2v7"></path>
+                  <line x1="6" y1="9" x2="6" y2="21"></line>
+                </svg>
+              </div>
+              <h3 class="category-title">Version Control &amp; Workflow</h3>
+            </div>
+            <p class="category-desc">Modern collaboration, source code management, and deployment pipelines.</p>
+            <div class="skill-tags-wrapper">
+              <div class="skill-item">
+                <span class="skill-indicator"></span>
+                <span class="skill-name">Git and GitHub</span>
+                <span class="skill-level">Version Control &amp; CI/CD</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. Projects Section -->
+    <section id="projects" class="section projects-section">
+      <div class="section-container">
+        <div class="section-header">
+          <span class="section-tag">&lt;portfolio_work&gt;</span>
+          <h2 class="section-title">Featured Projects</h2>
+          <div class="section-line"></div>
+          <p class="section-subtitle">Key engineering endeavors combining silicon design, edge computing, computer vision, and machine learning security.</p>
+        </div>
+
+        <div class="projects-grid">
+          <!-- Project 1: FPGA-Based CNN Accelerator -->
+          <article class="project-card">
+            <div class="project-badge">Hardware Accelerator</div>
+            <div class="project-header">
+              <div class="project-icon-chip">
+                <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="2">
+                  <rect x="4" y="4" width="16" height="16" rx="2"></rect>
+                  <path d="M9 9h6v6H9z"></path>
+                  <path d="M1 9h3M1 14h3M20 9h3M20 14h3M9 1v3M14 1v3M9 20v3M14 20v3"></path>
+                </svg>
+              </div>
+              <span class="project-year">VLSI / FPGA</span>
+            </div>
+            <h3 class="project-title">FPGA-Based CNN Accelerator for Real-Time Image Processing</h3>
+            <p class="project-description">
+              Engineered a high-performance hardware accelerator implemented on an FPGA platform to achieve real-time Convolutional Neural Network (CNN) inference. Designed pipelined processing elements (PEs) and parallel matrix multiplication engines to drastically lower inference latency and energy consumption relative to conventional general-purpose CPUs.
+            </p>
+            <div class="project-highlights">
+              <span class="highlight-pill">&#10003; Pipelined MAC Units</span>
+              <span class="highlight-pill">&#10003; Fixed-Point Arithmetic Optimization</span>
+              <span class="highlight-pill">&#10003; Real-Time Image Stream Processing</span>
+            </div>
+            <div class="project-tech-stack">
+              <span class="tech-pill">FPGA</span>
+              <span class="tech-pill">RTL Design</span>
+              <span class="tech-pill">VLSI</span>
+              <span class="tech-pill">MATLAB</span>
+              <span class="tech-pill">Verification</span>
+            </div>
+            <div class="project-actions">
+              <a href="#contact" class="project-btn">
+                <span>View Details</span>
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              </a>
+              <a href="#contact" class="project-btn-secondary">
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
+                <span>Code</span>
+              </a>
+            </div>
+          </article>
+
+          <!-- Project 2: Deepfake Video Detection -->
+          <article class="project-card">
+            <div class="project-badge">Deep Learning</div>
+            <div class="project-header">
+              <div class="project-icon-chip">
+                <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M15 10l5-5v14l-5-5"></path>
+                  <rect x="2" y="6" width="13" height="12" rx="2"></rect>
+                </svg>
+              </div>
+              <span class="project-year">AI &amp; Vision</span>
+            </div>
+            <h3 class="project-title">Deepfake Video Detection Using Long-Distance Attention</h3>
+            <p class="project-description">
+              Constructed an advanced computer vision neural framework for authenticating multimedia streams. Incorporated long-distance temporal attention networks to track minute biometric discrepancies across distant video frames, reliably isolating face-swapping and synthetic artifacts under heavy compression.
+            </p>
+            <div class="project-highlights">
+              <span class="highlight-pill">&#10003; Spatial-Temporal Feature Extraction</span>
+              <span class="highlight-pill">&#10003; Multi-Head Long Attention Modules</span>
+              <span class="highlight-pill">&#10003; High Precision Forensic Metric</span>
+            </div>
+            <div class="project-tech-stack">
+              <span class="tech-pill">Python</span>
+              <span class="tech-pill">Deep Learning</span>
+              <span class="tech-pill">Computer Vision</span>
+              <span class="tech-pill">C++</span>
+              <span class="tech-pill">Git</span>
+            </div>
+            <div class="project-actions">
+              <a href="#contact" class="project-btn">
+                <span>View Details</span>
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              </a>
+              <a href="#contact" class="project-btn-secondary">
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
+                <span>Code</span>
+              </a>
+            </div>
+          </article>
+
+          <!-- Project 3: IoT-Based Object Detection System -->
+          <article class="project-card">
+            <div class="project-badge">Edge IoT</div>
+            <div class="project-header">
+              <div class="project-icon-chip">
+                <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="2">
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <line x1="12" y1="8" x2="12" y2="12"></line>
+                  <line x1="12" y1="16" x2="12.01" y2="16"></line>
+                </svg>
+              </div>
+              <span class="project-year">Embedded IoT</span>
+            </div>
+            <h3 class="project-title">IoT-Based Object Detection System</h3>
+            <p class="project-description">
+              Developed a connected embedded vision module that performs real-time edge object tracking and classification. Built with optimized microcontroller firmware in Embedded C, communicating telemetry metrics, triggers, and spatial status data to a central cloud dashboard via lightweight IoT messaging.
+            </p>
+            <div class="project-highlights">
+              <span class="highlight-pill">&#10003; Low-Power Microcontroller Architecture</span>
+              <span class="highlight-pill">&#10003; Real-Time Wireless Notification Dispatch</span>
+              <span class="highlight-pill">&#10003; Hardware-Sensor Interfacing</span>
+            </div>
+            <div class="project-tech-stack">
+              <span class="tech-pill">Embedded C</span>
+              <span class="tech-pill">Arduino</span>
+              <span class="tech-pill">IoT</span>
+              <span class="tech-pill">Python</span>
+              <span class="tech-pill">Digital Electronics</span>
+            </div>
+            <div class="project-actions">
+              <a href="#contact" class="project-btn">
+                <span>View Details</span>
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              </a>
+              <a href="#contact" class="project-btn-secondary">
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
+                <span>Code</span>
+              </a>
+            </div>
+          </article>
+
+          <!-- Project 4: Phishing Website Detection -->
+          <article class="project-card">
+            <div class="project-badge">Cybersecurity</div>
+            <div class="project-header">
+              <div class="project-icon-chip">
+                <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                </svg>
+              </div>
+              <span class="project-year">ML Security</span>
+            </div>
+            <h3 class="project-title">Phishing Website Detection</h3>
+            <p class="project-description">
+              Created an intelligent cyber-defense system that analyzes uniform resource locators (URLs) and web document attributes to pinpoint malicious phishing vectors. Leveraged lexical entropy parsing and robust supervised learning classifiers to detect deceptive spoofing attempts with high confidence and minimal overhead.
+            </p>
+            <div class="project-highlights">
+              <span class="highlight-pill">&#10003; 96%+ Predictive Accuracy</span>
+              <span class="highlight-pill">&#10003; Real-Time URL Heuristics Analysis</span>
+              <span class="highlight-pill">&#10003; Automated Malicious Pattern Parser</span>
+            </div>
+            <div class="project-tech-stack">
+              <span class="tech-pill">Python</span>
+              <span class="tech-pill">Machine Learning</span>
+              <span class="tech-pill">Java</span>
+              <span class="tech-pill">Git and GitHub</span>
+            </div>
+            <div class="project-actions">
+              <a href="#contact" class="project-btn">
+                <span>View Details</span>
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              </a>
+              <a href="#contact" class="project-btn-secondary">
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
+                <span>Code</span>
+              </a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. Experience Section -->
+    <section id="experience" class="section experience-section">
+      <div class="section-container">
+        <div class="section-header">
+          <span class="section-tag">&lt;timeline&gt;</span>
+          <h2 class="section-title">Experience &amp; Academic Journey</h2>
+          <div class="section-line"></div>
+          <p class="section-subtitle">Practical engineering roles, laboratory projects, and collaborative technical initiatives.</p>
+        </div>
+
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <div class="timeline-meta">
+                <span class="timeline-role">Undergraduate Researcher &amp; Core Developer</span>
+                <span class="timeline-period">2023 - Present</span>
+              </div>
+              <h3 class="timeline-company">Electronics &amp; Communication Engineering Lab</h3>
+              <p class="timeline-desc">
+                Engaged in hands-on hardware prototyping and simulation. Conducted RTL modeling for digital logic circuits, verified timing constraints, and executed testbenches for functional verification of sequential and combinational circuits.
+              </p>
+              <div class="timeline-tags">
+                <span>RTL Design</span>
+                <span>FPGA</span>
+                <span>Verification</span>
+                <span>Digital Electronics</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <div class="timeline-meta">
+                <span class="timeline-role">Embedded Systems &amp; IoT Project Lead</span>
+                <span class="timeline-period">2024 - 2025</span>
+              </div>
+              <h3 class="timeline-company">Academic Embedded Innovation Initiatives</h3>
+              <p class="timeline-desc">
+                Architected sensor interface pipelines and micro-controller programming for real-time edge processing systems. Configured communication protocols (UART, SPI, I2C) and programmed embedded logic using C and Arduino.
+              </p>
+              <div class="timeline-tags">
+                <span>Embedded C</span>
+                <span>Arduino</span>
+                <span>IoT</span>
+                <span>Sensor Interfacing</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <div class="timeline-meta">
+                <span class="timeline-role">Technical Team Member</span>
+                <span class="timeline-period">2023 - 2024</span>
+              </div>
+              <h3 class="timeline-company">Engineering Technical Association &amp; Hackathons</h3>
+              <p class="timeline-desc">
+                Collaborated in cross-functional student teams to design software solutions, write clean codebases in Python and C++, manage collaborative repositories on GitHub, and present engineering prototypes in technical seminars.
+              </p>
+              <div class="timeline-tags">
+                <span>Python</span>
+                <span>C++</span>
+                <span>Git &amp; GitHub</span>
+                <span>System Design</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 6. Certifications Section -->
+    <section id="certifications" class="section certifications-section">
+      <div class="section-container">
+        <div class="section-header">
+          <span class="section-tag">&lt;credentials&gt;</span>
+          <h2 class="section-title">Certifications &amp; Training</h2>
+          <div class="section-line"></div>
+          <p class="section-subtitle">Verified professional learning across digital VLSI, embedded hardware, and algorithmic computation.</p>
+        </div>
+
+        <div class="certifications-grid">
+          <div class="cert-card">
+            <div class="cert-icon">
+              <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="8" r="7"></circle>
+                <polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline>
+              </svg>
+            </div>
+            <div class="cert-content">
+              <span class="cert-issuer">Silicon &amp; VLSI Specialization</span>
+              <h3 class="cert-title">VLSI Design &amp; Digital Verification</h3>
+              <p class="cert-summary">Comprehensive study of CMOS logic gates, Verilog RTL modeling, synthesis flows, and automated testbench verification.</p>
+              <div class="cert-footer">
+                <span class="cert-badge">Credential Verified</span>
+                <span class="cert-domain">VLSI / RTL</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="cert-card">
+            <div class="cert-icon">
+              <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+                <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+              </svg>
+            </div>
+            <div class="cert-content">
+              <span class="cert-issuer">Hardware Systems Specialization</span>
+              <h3 class="cert-title">FPGA Architecture &amp; Real-Time Prototyping</h3>
+              <p class="cert-summary">In-depth training on FPGA architecture, timing constraints, bitstream generation, and hardware pipeline optimization.</p>
+              <div class="cert-footer">
+                <span class="cert-badge">Credential Verified</span>
+                <span class="cert-domain">FPGA / Hardware</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="cert-card">
+            <div class="cert-icon">
+              <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                <polyline points="22,6 12,13 2,6"></polyline>
+              </svg>
+            </div>
+            <div class="cert-content">
+              <span class="cert-issuer">Embedded Electronics</span>
+              <h3 class="cert-title">Embedded Systems Programming &amp; IoT</h3>
+              <p class="cert-summary">Hands-on micro-controller programming using Embedded C and Arduino, peripheral interfacing (ADC, Timers, PWM), and IoT connectivity.</p>
+              <div class="cert-footer">
+                <span class="cert-badge">Credential Verified</span>
+                <span class="cert-domain">Embedded / IoT</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="cert-card">
+            <div class="cert-icon">
+              <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M18 20V10"></path>
+                <path d="M12 20V4"></path>
+                <path d="M6 20v-6"></path>
+              </svg>
+            </div>
+            <div class="cert-content">
+              <span class="cert-issuer">Data &amp; Intelligent Systems</span>
+              <h3 class="cert-title">Python for Engineering &amp; Machine Learning</h3>
+              <p class="cert-summary">Focus on numerical computation with NumPy, MATLAB algorithms, data structures, and computer vision classification networks.</p>
+              <div class="cert-footer">
+                <span class="cert-badge">Credential Verified</span>
+                <span class="cert-domain">AI / Python</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 7. Contact Section -->
+    <section id="contact" class="section contact-section">
+      <div class="section-container">
+        <div class="section-header">
+          <span class="section-tag">&lt;get_in_touch&gt;</span>
+          <h2 class="section-title">Contact Me</h2>
+          <div class="section-line"></div>
+          <p class="section-subtitle">Interested in collaborating on VLSI, embedded hardware, or engineering projects? Feel free to reach out!</p>
+        </div>
+
+        <div class="contact-grid">
+          <div class="contact-info-card">
+            <h3 class="info-title">Let's Connect</h3>
+            <p class="info-desc">
+              Whether you have an internship opportunity, an interesting hardware challenge, or would like to discuss cutting-edge research in FPGA and IoT, my inbox is always open.
+            </p>
+
+            <div class="contact-details">
+              <div class="detail-item">
+                <div class="detail-icon">
+                  <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                    <polyline points="22,6 12,13 2,6"></polyline>
+                  </svg>
+                </div>
+                <div>
+                  <span class="detail-label">Email</span>
+                  <a href="mailto:patelmanoj8582@gmail.com" class="detail-value">patelmanoj8582@gmail.com</a>
+                </div>
+              </div>
+
+              <div class="detail-item">
+                <div class="detail-icon">
+                  <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                  </svg>
+                </div>
+                <div>
+                  <span class="detail-label">Phone</span>
+                  <a href="tel:7338574279" class="detail-value">+91 7338574279</a>
+                </div>
+              </div>
+
+              <div class="detail-item">
+                <div class="detail-icon">
+                  <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                    <circle cx="12" cy="10" r="3"></circle>
+                  </svg>
+                </div>
+                <div>
+                  <span class="detail-label">Location</span>
+                  <span class="detail-value">India</span>
+                </div>
+              </div>
+
+              <div class="detail-item">
+                <div class="detail-icon">
+                  <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
+                    <path d="M6 12v5c3 3 9 3 12 0v-5"></path>
+                  </svg>
+                </div>
+                <div>
+                  <span class="detail-label">Education</span>
+                  <span class="detail-value">B.E. ECE • Expected 2027</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Generic Vector Social / Web Links -->
+            <div class="social-links-wrapper">
+              <span class="social-links-label">Connect Online:</span>
+              <div class="social-links">
+                <a href="tel:7338574279" class="social-btn" aria-label="Phone Call" title="Call Manoj">
+                  <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                  </svg>
+                </a>
+                <a href="mailto:patelmanoj8582@gmail.com" class="social-btn" aria-label="Direct Email" title="Email Manoj">
+                  <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                    <polyline points="22,6 12,13 2,6"></polyline>
+                  </svg>
+                </a>
+                <a href="#contact" class="social-btn" aria-label="Code Repository" title="Repositories">
+                  <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="16 18 22 12 16 6"></polyline>
+                    <polyline points="8 6 2 12 8 18"></polyline>
+                  </svg>
+                </a>
+                <a href="#contact" class="social-btn" aria-label="Professional Network" title="Professional Network">
+                  <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <line x1="2" y1="12" x2="22" y2="12"></line>
+                    <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-form-card">
+            <h3 class="form-title">Send a Message</h3>
+            <form id="contact-form" novalidate>
+              <div class="form-group">
+                <label for="contact-name">Your Full Name <span class="required-star">*</span></label>
+                <input type="text" id="contact-name" name="name" placeholder="e.g. Alex Johnson" required autocomplete="name">
+                <span class="error-msg" id="name-error"></span>
+              </div>
+
+              <div class="form-group">
+                <label for="contact-email">Email Address <span class="required-star">*</span></label>
+                <input type="email" id="contact-email" name="email" placeholder="e.g. alex@example.com" required autocomplete="email">
+                <span class="error-msg" id="email-error"></span>
+              </div>
+
+              <div class="form-group">
+                <label for="contact-subject">Subject <span class="required-star">*</span></label>
+                <input type="text" id="contact-subject" name="subject" placeholder="e.g. Project Inquiry / VLSI Discussion" required>
+                <span class="error-msg" id="subject-error"></span>
+              </div>
+
+              <div class="form-group">
+                <label for="contact-message">Message <span class="required-star">*</span></label>
+                <textarea id="contact-message" name="message" rows="5" placeholder="Write your message here..." required></textarea>
+                <span class="error-msg" id="message-error"></span>
+              </div>
+
+              <div id="form-status" class="form-status" role="alert" aria-live="polite"></div>
+
+              <button type="submit" id="submit-btn" class="btn btn-primary btn-submit">
+                <span class="btn-text">Send Message</span>
+                <svg class="send-icon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <line x1="22" y1="2" x2="11" y2="13"></line>
+                  <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                </svg>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- 8. Footer Section -->
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="#home" class="footer-logo">
+            <span class="logo-symbol">&lt;</span>Manoj<span class="logo-accent">.DV</span><span class="logo-symbol">/&gt;</span>
+          </a>
+          <p class="footer-tagline">
+            B.E. Electronics &amp; Communication Engineering • Specializing in VLSI, FPGA, Embedded Systems &amp; IoT.
+          </p>
+        </div>
+
+        <div class="footer-nav">
+          <h4 class="footer-col-title">Navigation</h4>
+          <ul class="footer-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#certifications">Certifications</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-interests">
+          <h4 class="footer-col-title">Core Disciplines</h4>
+          <ul class="footer-links">
+            <li><span>RTL Design &amp; Synthesis</span></li>
+            <li><span>FPGA Prototyping</span></li>
+            <li><span>Embedded Firmware &amp; Microcontrollers</span></li>
+            <li><span>IoT Architectures &amp; Edge AI</span></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p class="copyright-text">
+          &copy; <span id="current-year">2026</span> Manoj DV. Crafted with clean HTML, CSS &amp; JavaScript. Ready for GitHub Pages.
+        </p>
+        <a href="#home" class="back-to-top-btn" aria-label="Back to top" title="Back to top">
+          <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="18 15 12 9 6 15"></polyline>
+          </svg>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
